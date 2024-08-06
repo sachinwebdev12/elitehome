@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteFit X Dubai Dates</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .background {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .logo {
+            width: 350px;
+            margin-bottom: 200px;
+        }
+        .text {
+            width: 400px; /* Adjust as necessary */
+            margin-bottom: 25px;
+            margin-top: 50px;
+        }.text-contact{
+            width: 500px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .container{
+                overflow: hidden;
+            }
+            .background {
+                content: url('mobile-background.png'); /* Path to your mobile background image */
+            }
+            .logo {
+                width: 350px;
+            margin-bottom: 100px; /* Adjust size for mobile */
+            }
+            .text {
+                width: 200px; /* Adjust size for mobile */
+            }.text-contact{
+            width: 300px;
+            margin-bottom: 10px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="assets/BG Desktop.jpg" alt="Background Image" class="background">
+        <div class="overlay">
+            <img src="assets/Logocome.png" alt="EliteFit Logo" class="logo">
+            
+            <img src="assets/See you soon..png" alt="See You Soon" class="text">
+            <img src="assets/Contactus_ info.png" alt="Contact Us" class="text-contact">
+        </div>
+    </div>
+</body>
+</html>
